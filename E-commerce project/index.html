@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce</title>
+    <link rel="icon" href="./img/logo.png" />
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+      <a class="navbar-brand" href="javascript:void(0)">
+        <img
+          src="img/logo.png"
+          alt="Furniture Logo"
+          class="logo-img m-4"
+          style="width: 61px"
+        />
+      </a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#mynavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item m-4">
+            <a class="nav-link" href="javascript:void(0)">Home</a>
+          </li>
+          <li class="nav-item m-4">
+            <a class="nav-link" href="javascript:void(0)">About</a>
+          </li>
+          <li class="nav-item m-4">
+            <a class="nav-link" href="javascript:void(0)">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search" />
+          <button class="btn btn-info" type="button">Search</button>
+        </form>
+      </div>
+    </nav>
+    <!-- Slider Container -->
+    <div id="c1" class="carousel slide" data-bs-ride="carousel">
+      <!-- Images -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./photos/pohto1.jpg" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="./photos/photo2.jpg" class="d-block w-100" />
+        </div>
+        <div class="carousel-item">
+          <img src="./photos/photo3.jpg" class="d-block w-100" />
+        </div>
+      </div>
+
+      <!-- Indicators -->
+      <div class="carousel-indicators">
+        <button
+          type="button"
+          data-bs-target="#c1"
+          data-bs-slide-to="0"
+          class="active"
+          aria-label="Slide 1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#c1"
+          data-bs-slide-to="1"
+        ></button>
+        <button
+          type="button"
+          data-bs-target="#c1"
+          data-bs-slide-to="2"
+        ></button>
+      </div>
+
+      <!-- Left & Right Buttons -->
+      <button
+        class="carousel-control-prev dark"
+        type="button"
+        data-bs-target="#c1"
+        data-bs-slide="prev "
+      >
+        <span class="carousel-control-prev-icon"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+
+      <button
+        class="carousel-control-next"
+        type="button"
+        data-bs-target="#c1"
+        data-bs-slide="next"
+      >
+        <span class="carousel-control-next-icon"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <h3 class="font-bold m-3">up to 80% off black friday picks for you</h3>
+    <div class="container d-flex m-15">
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm1.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">
+            Aichele Faux Leather Wingback Chair
+          </h5>
+          <p class="card-text text-warning">
+            799DH <del style="color: red">1099DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm2.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">Hanley Solid Wood Top End Table</h5>
+          <p class="card-text text-warning">
+            559DH <del style="color: red">999DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm3.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">
+            Hannahs 3-Light Dome Kitchen Island Pendant Light
+          </h5>
+          <p class="card-text text-warning">
+            500DH <del style="color: red">899DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm7.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">Ramillies Marble Top End Table</h5>
+          <p class="card-text text-warning">
+            650DH <del style="color: red">899DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+    </div>
+    <h3 class="font-bold m-3">gifts for all (& in your budget)</h3>
+    <div class="logos">
+      <div class="logos-slide m-3">
+        <img src="./photos/ep1.webp" width="130" class="m-2" />
+        <img src="./photos/ep2.webp" width="130" class="m-2" />
+        <img src="./photos/ep3.webp" width="130" class="m-2" />
+        <img src="./photos/ep4.webp" width="130" class="m-2" />
+        <img src="./photos/ep5.webp" width="130" class="m-2" />
+        <img src="./photos/ep6.webp" width="130" class="m-2" />
+        <img src="./photos/ep7.webp" width="130" class="m-2" />
+        <img src="./photos/ep8.webp" width="130" class="m-2" />
+      </div>
+    </div>
+    <h3 class="font-bold m-3">living room level-up – for less</h3>
+
+    <div class="container d-flex m-15">
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm4.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">
+            Minehead Upholstered Side Dining Chair for Living Room Kitchen
+            Dining Room (Set of 4)
+          </h5>
+          <p class="card-text text-warning">
+            1099DH <del style="color: red">1599DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm5.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">
+            Keely 70'' TV Stand for TVs up to 80'' with Electric Fireplace and
+            Adjustable Shelves
+          </h5>
+          <p class="card-text text-warning">
+            6976DH <del style="color: red">10099DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm6.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">
+            LED Farm House TV Stand with Tempered Glass Door for TVs up to 70"
+            For Living Room
+          </h5>
+          <p class="card-text text-warning">
+            3000DH <del style="color: red">4599DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+      <div class="card m-4" style="width: 18rem">
+        <img class="card-img-top" src="./photos/nm8.webp" />
+
+        <div class="card-body bg-dark">
+          <h5 class="card-title text-light">
+            Marble Side End Accent Table with Marble Top with Gold Inlay
+          </h5>
+          <p class="card-text text-warning">
+            729DH <del style="color: red">899DH</del>
+          </p>
+          <a href="" class="btn btn-success">add to cart</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container my-5 bg-dark">
+      <div class="row align-items-center bg-primary p-4 rounded shadow">
+        <div class="col-md-8">
+          <h2 class="fw-bold">Earn Even More</h2>
+          <p class="mb-3">
+            Furniture credit card members earn
+            <span class="fw-bold">7% back<sup>3</sup></span> in rewards on
+            qualifying items at Wayfair, plus
+            <span class="fw-bold">free membership<sup>4</sup></span> in Wayfair
+            Rewards.
+          </p>
+          <a href="#" class="btn btn-success">Apply Now</a>
+        </div>
+        <div class="col-md-4 text-center">
+          <img src="./photos/logo2.jpg" alt="Wayfair Card" class="img-fluid" />
+        </div>
+      </div>
+    </div>
+    <hr class="fw-bold" />
+    <footer class="bg-secondary py-4 text-light">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>About Us</h4>
+            <ul class="list-unstyled">
+              <li>
+                <a href="#" class="text-decoration-none text-light">About </a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"> Rewards</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  Professional</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Gift Cards</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Credit Card</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  Financing</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">Careers</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Sell on Furniture</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">creators</a>
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Investor Relations</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Advertise With Us</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Locations</a
+                >
+              </li>
+            </ul>
+          </div>
+          <div class="col-md-4 text-light">
+            <h5>Customer Service</h5>
+            <ul class="list-unstyled text-lightss">
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >My Orders</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >My Account</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Track My Order</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light">
+                  Accessibility Statement</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Return Policy</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Help Center</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Ideas & Advice</a
+                >
+              </li>
+              <li>
+                <a href="#" class="text-decoration-none text-light"
+                  >Product Recalls</a
+                >
+              </li>
+            </ul>
+          </div>
+
+          <div class="col-md-4 text-light">
+            <h5>Contact Us</h5>
+            <ul class="list-unstyled text-light">
+              <li>
+                <a href="#" class="btn btn-outline-dark btn-sm mb-2 text-light"
+                  >Quick Help</a
+                >
+              </li>
+              <li>
+                <a href="#" class="btn btn-outline-dark btn-sm text-light"
+                  >Call Us</a
+                >
+              </li>
+            </ul>
+            <p class="fw-bold">Customer Service</p>
+            <p>Closed. Opens Friday at 8:00 AM.</p>
+            <ul class="list-unstyled">
+              <li>Mon – Fri: 8:00 AM – 11:59 PM</li>
+              <li>Sat: 8:00 AM – 8:00 PM</li>
+              <li>Sun: 9:00 AM – 6:00 PM</li>
+            </ul>
+            <p class="fst-italic">All times Eastern</p>
+            <p class="fw-bold">Shopping Assistance</p>
+            <p>Closed. Opens Friday at 8:00 AM.</p>
+            <ul class="list-unstyled">
+              <li>Mon - Fri: 8:00 AM - 11:59 PM</li>
+              <li>Sat: 8:00 AM - 8:00 PM</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <hr />
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
